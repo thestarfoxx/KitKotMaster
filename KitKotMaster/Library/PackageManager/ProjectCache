@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637704359404411309
-    m_Hash: 2471517626
+      ticks: 637705385693925326
+    m_Hash: 4217140592
   m_LockFileStatus:
     m_FilePath: C:/Users/Asus/Documents/GitHub/KitKotMaster/KitKotMaster/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637704359404573813
-    m_Hash: 3031112309
+      ticks: 637705385693984897
+    m_Hash: 3663562966
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
