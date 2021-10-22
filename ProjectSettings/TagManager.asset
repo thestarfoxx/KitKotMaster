@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Heart
   - Dislike
+  - 20x
+  - 50x
+  - 100x
   layers:
   - Default
   - TransparentFX

@@ -33,6 +33,16 @@ public class PlayerController : MonoBehaviour
             objectToDestroy = other.gameObject;
             //Destroy(other.gameObject);
         }
+        else
+        {
+            if (other.tag.Contains("x")){
+
+
+                int multiplier = int.Parse(other.tag.Split(char.Parse("x"))[0]);
+                progress = progress * multiplier;
+            }
+
+        }
         likesText.text = progress.ToString();
     }
 
