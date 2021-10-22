@@ -5,7 +5,7 @@ using UnityEngine;
 public class RoadManager : MonoBehaviour
 {   public GameObject[] RoadPrefabs;        ///// Yol prefab listesi. Farklı tür yollar için kullanılabilir
     public float zSpawn=0;                  ///// Yolun geleceği nokta, her yol oluşturulduğunda artırılır
-    public float RoadLength = 120;         ///// Yol uzunluğu, oyuncunun pozisyonuna göre yol oluşturup silmek için kullanılır
+    public float RoadLength = 100;         ///// Yol uzunluğu, oyuncunun pozisyonuna göre yol oluşturup silmek için kullanılır
     public int numberofRoads = 3;           ///// Başlangıçta oluşturulacak yollar 
     public Transform playerTransform;       ///// Oyuncunun pozisyonu    
     private List<GameObject> activeRoads = new List<GameObject>();   ///// Oluşmuş yollar listesi. Her yol oluştuğunda bir önceki silinir.
